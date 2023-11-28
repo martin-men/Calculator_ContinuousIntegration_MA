@@ -1,0 +1,5 @@
+# Created at 2023-11-28T09:05:09.202
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Repositorios-Sexto\Calculator_ContinuousIntegration_MA\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

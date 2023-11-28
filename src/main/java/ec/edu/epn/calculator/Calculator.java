@@ -1,9 +1,13 @@
 package ec.edu.epn.calculator;
 
 public class Calculator {
-    private float lastResult;
+    private float lastResult = 0;
 
     public Calculator() {}
+
+    public float getLastResult() {
+        return lastResult;
+    }
 
     public float add(float a, float b) {
         lastResult = a + b;

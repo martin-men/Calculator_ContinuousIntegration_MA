@@ -31,4 +31,18 @@ public class CalculatorTest {
         System.out.println("Test 3");
         calculator.setTimeout(100);
     }
+
+    @Test
+    public void given_two_numbers_when_multiplication_then_ok() {
+        System.out.println("Test 4");
+        assertEquals(12, calculator.multiplication(4, 3), 0.0001);
+    }
+
+    @Test
+    public void given_two_numbers_when_division_then_ok() {
+        System.out.println("Test 5");
+        assertEquals(3, calculator.division(15, 5), 0.0001);
+    }
+
+
 }
